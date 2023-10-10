@@ -72,7 +72,7 @@ For testing purposes, we used Java built-in HttpClient class which is asynchrono
 
 ## Design Details
 
-![design](images\design.png)
+![design](images/design.png)
 
 
 
@@ -90,7 +90,7 @@ If the primary host server is not reachable, the proxy will then try its backups
 
 The monitor system listens for performance report from each host. It also checks if read and write is available on each host and tries to wake up if any is not available. It also handles the data replication and redistribute when hosts added/removed.
 
-![monitor](images\monitor.png)
+![monitor](images/monitor.png)
 
 
 
@@ -120,7 +120,7 @@ The monitor system listens for performance report from each host. It also checks
 
 - Data will be replicated for $ \lfloor{\frac{n}{3}}\rfloor + 1$ times, so that it tolerates up to 1/3 server down
 
-  ![data_replication](images\data_replication.png)
+  ![data_replication](images/data_replication.png)
 
 - data replication is handled by Monitor, which will replicate the databases of each server every 15 seconds (configurable)
 
