@@ -1,0 +1,7 @@
+*.pid
+*.output
+*.class
+notes.txt
+*.db
+.idea/*
+*.iml
