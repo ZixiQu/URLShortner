@@ -1,5 +1,9 @@
 # CSC409 A1 Report
 
+credit to [Bob](https://github.com/mossony) and [Alex](https://github.com/JinyanYi) for co-design and coding with me.
+
+This is a project that implements Orchestration, Fault tolerance, Horizontal Scalability, Disaster Recovery, Consistency, Availability.
+
 The project is consist of 3 main parts
 
 - URLShortner.java (will refer as host server below)
