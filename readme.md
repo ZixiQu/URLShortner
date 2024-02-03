@@ -4,7 +4,7 @@ credit to [Bob](https://github.com/mossony) and [Alex](https://github.com/Jinyan
 
 This is a project that implements Orchestration, Fault tolerance, Horizontal Scalability, Disaster Recovery, Consistency, Availability.
 
-The project is consist of 3 main parts
+The project is consist of 3 parts
 
 - URLShortner.java (will refer as host server below)
 - ProxyServer.java
@@ -167,7 +167,3 @@ The monitor system listens for performance report from each host. It also checks
 **Vertical scalability**:
 
 - Jobs are handled in multi-threaded fashion, thus the software will utilize as much computing and storage resources as possible.
-
-**Well formatted document**:
-
-- TL;DR. Straight 110% XD
